@@ -1,0 +1,9 @@
+{
+    "id": "layint",
+    "name": "LayerScan",
+    "modes": [
+        "canvas"
+    ],
+    "documentAccess": "readAndWrite",
+    "icon": "./logo.svg"
+}
