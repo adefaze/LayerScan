@@ -10,7 +10,8 @@
         "test": "jest",
         "lint": "eslint src --ext .ts,.tsx",
         "lint:fix": "eslint src --ext .ts,.tsx --fix",
-        "format": "prettier --write \"src/**/*.{ts,tsx,css}\""
+        "format": "prettier --write \"src/**/*.{ts,tsx,css}\"",
+        "zip": "npm run build && zip -r layer-intelligence.zip framer.json dist"
     },
     "dependencies": {
         "framer-plugin": "^0.5.1",
